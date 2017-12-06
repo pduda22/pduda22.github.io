@@ -22,13 +22,17 @@
      <option value="Warszawa">Warszawa</option>
      <option value="Gdańsk">Gdańsk</option>
 </select><br>
-        <label>Podaj płeć:</label><br>
-        <input type="radio" name="plec" value="zenska" checked> Żeńska
-        <input type="radio" name="plec" value="meska"> Męska
-        <br>
-        <label><input type="checkbox" name="zgoda" value="tak" checked>Zgoda na przetwarzanie danych osobowych</label><br>
-        <textarea maxlength="1000" id="Wiadomość" name="Wiadomość">Zostaw wiadomość</textarea><br>
-        <input type="submit" value="Wyślij">
+        <fieldset style="width:145px">
+           <legend>Podaj płeć:</legend>
+                <input type="radio" name="plec" value="zenska" id="women" checked>
+                <label for="women">Żeńska</label>
+                <input type="radio" name="plec" value="meska" id="men">
+                <label for="men">Męska</label>
+        </fieldset>
+                <br>
+                <label><input type="checkbox" name="zgoda" value="tak" checked>Zgoda na przetwarzanie danych osobowych</label><br>
+                <textarea maxlength="1000" id="Wiadomość" name="Wiadomość">Zostaw wiadomość</textarea><br>
+                <input type="submit" value="Wyślij">
     </form>
 </body>
 
