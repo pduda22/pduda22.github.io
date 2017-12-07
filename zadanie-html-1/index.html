@@ -8,32 +8,49 @@
 
 <body>
     <form action="https://formspree.io/p.duda_22@wp.pl" method="POST">
-        <label for="imie">Imię:</label><br>
-        <input type="text" name="imie" id="imie"><br>
-        <label for="nazwisko">Nazwisko:</label><br>
-        <input type="text" name="nazwisko" id="nazwisko"><br>
-        <label for="mail">e-mail:</label><br>
-        <input type="text" name="mail" id="mail"><br>
+
+        <label for="imie">Imię:</label>
+        <br>
+        <input type="text" name="imie" id="imie">
+        <br>
+        <label for="nazwisko">Nazwisko:</label>
+        <br>
+        <input type="text" name="nazwisko" id="nazwisko">
+        <br>
+        <label for="mail">e-mail:</label>
+        <br>
+        <input type="text" name="mail" id="mail">
+        <br>
         <label for="telefon">Telefon:</label><br>
-        <input type="text" name="telefon" id="telefon"><br>
-        <label for="miasto">Wybór miasta:</label><br>
+        <input type="text" name="telefon" id="telefon">
+        <br>
+        <label for="miasto">Wybór miasta:</label>
+        <br>
+
         <select name="miasto" id="miasto">
-     <option value="Kraków">Kraków</option>
-     <option value="Warszawa">Warszawa</option>
-     <option value="Gdańsk">Gdańsk</option>
-</select><br>
+     <option value="krakow">Kraków</option>
+     <option value="warszawa">Warszawa</option>
+     <option value="gdansk">Gdańsk</option>
+</select>
+        <br>
+
         <fieldset style="width:145px">
-           <legend>Podaj płeć:</legend>
-                <input type="radio" name="plec" value="zenska" id="women" checked>
-                <label for="women">Żeńska</label>
-                <input type="radio" name="plec" value="meska" id="men">
-                <label for="men">Męska</label>
+            <legend>Podaj płeć:</legend>
+            <input type="radio" name="plec" value="zenska" id="women" checked>
+            <label for="women">Żeńska</label>
+            <input type="radio" name="plec" value="meska" id="men">
+            <label for="men">Męska</label>
         </fieldset>
-                <br>
-                <label><input type="checkbox" name="zgoda" value="tak" checked>Zgoda na przetwarzanie danych osobowych</label><br>
-                <textarea maxlength="1000" id="Wiadomość" name="Wiadomość">Zostaw wiadomość</textarea><br>
-                <input type="submit" value="Wyślij">
+        <br>
+
+        <label><input type="checkbox" name="zgoda" value="tak" checked>Zgoda na przetwarzanie danych osobowych</label><br>
+        <textarea maxlength="1000" id="wiadomosc" name="wiadomosc">Zostaw wiadomość</textarea>
+        <br>
+
+        <input type="submit" value="wyslij">
+
     </form>
+
 </body>
 
 </html>
