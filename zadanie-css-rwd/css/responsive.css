@@ -1,0 +1,52 @@
+@media screen and (min-width:1170px) {
+    figure#img2 {
+        display: none;
+    }
+    figure#img1 {
+        min-height: 100%;
+    }
+}
+
+@media screen and (max-width:1169px) and (min-width:992px) {
+    figure#img1 {
+        display: none;
+    }
+    figure#img2 {
+/*
+        background-image: url(../img/man-2.jpg);
+        background-size: cover;
+        background-position: center;
+        margin: 0;
+*/
+        width: 100%;
+        height: 70vh; 
+    }
+    figure#img2 > figcaption {
+/*
+        font-family: Verdana, sans-serif;
+        color: white;
+        font-size: 13px;
+        position: absolute;
+*/
+        text-transform: uppercase;
+        top: 8vh;
+        right: 6vw;
+    }
+}
+
+@media screen and (max-width:991px) {
+    figure#img2 {
+        display: none;
+    }
+    figure#img1 {
+        height: 50vh;
+        width: 100%;
+        overflow: hidden;
+    }
+    figure#img1 > figcaption {
+        text-align: center;
+        top: 10vh;
+        width:96vw;    
+        color: black;
+    }
+}

@@ -1,0 +1,40 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+figure#img1 {
+    background-image: url(../img/man-1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+
+}
+
+figure#img1 > figcaption {
+    position: absolute;
+    padding: 40vh 1vw;
+    color: white;
+    text-transform: uppercase;
+    text-align: left;
+    font-family: Verdana, sans-serif;
+
+}
+
+figure#img2 {
+    background-image: url(../img/man-2.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+figure#img2 > figcaption {
+    font-family: Verdana, sans-serif;
+    color: white;
+    font-size: 13px;
+    position: absolute;
+}
